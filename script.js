@@ -34,7 +34,7 @@ async function fetchDetails() {
       };
   
       // Send data to the logging server
-      await fetch('https://your-logger-server.netlify.app/log', {
+      await fetch('https://loggingmain.netlify.app/log', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
